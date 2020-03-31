@@ -26,7 +26,7 @@ rm -rf /var/lib/apt/lists/*
 #The Kali Docker Image Is Out Of Date. : (
 RUN apt-get update -y && apt-get dist-upgrade -y
 
-RUN apt-get install -y kali-linux-full
+RUN apt-get install -y kali-linux-everything
 
 RUN apt-get install -y firefox ubuntu-gnome-desktop 
 RUN apt-get install -y gnome
