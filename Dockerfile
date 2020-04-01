@@ -28,7 +28,6 @@ RUN apt-get update -y && apt-get dist-upgrade -y
 
 RUN apt-get install -y kali-linux-everything
 
-RUN apt-get install -y firefox ubuntu-gnome-desktop 
-RUN apt-get install -y gnome
+RUN apt-get install -y lxde-core lxde kali-defaults kali-root-login desktop-base
 
 CMD /startup.sh
